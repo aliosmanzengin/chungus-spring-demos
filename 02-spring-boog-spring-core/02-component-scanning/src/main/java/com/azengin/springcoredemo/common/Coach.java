@@ -1,4 +1,4 @@
-package com.azengin.util;
+package com.azengin.springcoredemo.common;
 
 public interface Coach {
     String getDailyWorkout();
