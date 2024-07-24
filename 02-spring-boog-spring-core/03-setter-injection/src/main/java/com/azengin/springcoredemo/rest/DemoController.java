@@ -10,8 +10,10 @@ public class DemoController {
     //    Define a private field for dependency
     private Coach myCoach;
 
+    // Alternatively, you may use any method to inejct. does not have to be setter or constructor.
+    // Just use @Autowired annotation
     @Autowired
-    public DemoController(Coach theCoach) {
+    public void setCoach(Coach theCoach) {
         myCoach = theCoach;
     }
 
